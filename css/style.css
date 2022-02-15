@@ -10,3 +10,35 @@ body {
     font-family: Arial;
     grid-gap: 2em;
   }
+
+  #navbar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 
+    grid-area: nav;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #f2f2f2;
+    padding: 1em;
+  }
+  
+  #navbar a {
+    position: relative;
+    font-size: 1.2em;
+    font-weight: lighter;
+    text-decoration: none;
+    color: purple;
+    margin-right: 1em;
+  }
+  
+  /* effects on links */
+  
+  #navbar a:hover {
+    animation-name: sweep;
+    animation-duration: .1s;
+    animation-fill-mode: forwards;
+    color: orange;
+  }
