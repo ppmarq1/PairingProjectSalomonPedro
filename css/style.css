@@ -1,0 +1,12 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8vh repeat(3, 1fr);
+    grid-template-areas: 
+      "nav"
+      "welcome"
+      "projects"
+      "footer";
+    font-family: Arial;
+    grid-gap: 2em;
+  }
